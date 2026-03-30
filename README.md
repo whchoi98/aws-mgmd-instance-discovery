@@ -40,6 +40,22 @@ This tool answers all of these questions instantly, without provisioning any res
   - Only requires read-only permissions: `Describe*`, `List*` APIs
   - No write permissions needed — no resources are created or modified
 
+#### Environment Check
+
+Run the prerequisite checker before first use:
+
+```bash
+python3 check_env.py
+```
+
+```
+  ✅ Python 3.9.25
+  ✅ boto3 1.42.59
+  ✅ AWS 자격 증명 (Account: xxxxxxxxxxxx)
+  ✅ aws-cli/2.33.15
+  ✅ 모든 필수 요구사항 충족. 바로 사용 가능합니다.
+```
+
 #### Interactive Shell (Recommended)
 
 Supports all 8 services with a menu-driven interface:
@@ -176,6 +192,22 @@ AWS 인프라를 계획할 때 자주 궁금한 것들:
 - AWS 자격 증명 설정 (`aws configure` 또는 IAM 역할)
   - 읽기 전용 권한만 필요: `Describe*`, `List*` API
   - 쓰기 권한 불필요 — 리소스를 생성하거나 수정하지 않음
+
+#### 환경 체크
+
+최초 사용 전 사전 요구사항을 확인하세요:
+
+```bash
+python3 check_env.py
+```
+
+```
+  ✅ Python 3.9.25
+  ✅ boto3 1.42.59
+  ✅ AWS 자격 증명 (Account: xxxxxxxxxxxx)
+  ✅ aws-cli/2.33.15
+  ✅ 모든 필수 요구사항 충족. 바로 사용 가능합니다.
+```
 
 #### 인터랙티브 셸 (권장)
 
